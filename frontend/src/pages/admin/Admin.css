@@ -1,0 +1,16 @@
+.sort{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+.sortBy button{
+   background-color: #1B745E;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   margin-left: 5px;
+}
+.search input{
+   padding: 5px;
+}

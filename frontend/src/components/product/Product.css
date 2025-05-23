@@ -1,0 +1,27 @@
+.product{
+   width: calc(33.33% - 20px);
+   color: #1B745E;
+   text-align: center;
+   border: 1px solid gray;
+}
+
+.product button{
+   background-color: #1B745E;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+}
+
+.product h2{
+   color: #1B745E;
+}
+
+.product-content{
+   padding: 20px;
+}
+
+@media(max-width:768px){
+   .product{
+      width: 100%;
+   }
+}

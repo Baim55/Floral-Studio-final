@@ -1,0 +1,47 @@
+#about-area{
+   padding: 100px 0;
+}
+
+.about{
+display: flex;
+flex-wrap: wrap;
+}
+
+.about-content{
+   background-color: #1B745E;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: white;
+   padding:0 100px ;
+   width: 50%;
+}
+
+.about-img{
+   width: 50%;
+}
+.about-content h1{
+   font-size: 50px;
+}
+
+.about-content p{
+   margin: 20px 0;
+   font-size: 20px;
+}
+.about-content button{
+   background-color: white;
+   color: #1B745E;
+   padding: 15px 40px;
+   border: none;
+   font-size: 20px;
+   margin-top: 20px
+}
+
+@media(max-width:768px){
+   .about-content,.about-img{
+      width: 100%;
+   }
+   .about-content{
+      padding: 20px;
+   }
+}

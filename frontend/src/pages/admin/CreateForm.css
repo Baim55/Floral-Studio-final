@@ -1,0 +1,17 @@
+form input{
+   display: flex;
+}
+
+.create{
+   display: flex;
+   justify-content: center;
+}
+
+form button{
+ background-color: #1B745E;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   margin-top: 20px;
+
+}

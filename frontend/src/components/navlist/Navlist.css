@@ -1,0 +1,26 @@
+.list{
+   display: flex;
+   gap: 20px;
+}
+
+.list li{
+   font-size: 20px;
+}
+
+.list-link{
+   text-decoration: none;
+   color: inherit;
+}
+
+.burger{
+   display: none;
+}
+
+@media(max-width:768px){
+   .burger{
+      display: block;
+   }
+   .list{
+      display: none;
+   }
+}

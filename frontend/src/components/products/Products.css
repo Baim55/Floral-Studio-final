@@ -1,0 +1,11 @@
+.products{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.products-title{
+   text-align: center;
+   color: #1B745E;
+   margin-bottom: 30px;
+}
